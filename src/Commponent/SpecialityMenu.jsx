@@ -24,9 +24,13 @@ const specialities = [
 const SpecialityMenu = () => {
   return (
     <div className="max-w-4xl mx-auto px-4 py-8">
-      <h1 className="text-2xl font-semibold text-center">Find by Speciality</h1>
+      <div className='flex justify-center'>
+      <h1 className="text-2xl font-semibold text-center border-2 py-2 px-2">
+        Find by Speciality
+        </h1>
+        </div>
       <p className="text-center mt-4 text-gray-600">
-        Simply browse through our extensive list of trusted doctors, schedule your appointment.
+        Simply browse through our extensive list of <br /> trusted doctors, schedule your appointment.
       </p>
 
       <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
