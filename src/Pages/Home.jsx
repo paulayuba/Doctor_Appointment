@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from '../Commponent/Header'
 import SpecialityMenu from '../Commponent/SpecialityMenu'
+// import TopDoctor from '../Commponent/TopDoctor'
 
 
 const Home = () => {
@@ -8,6 +9,7 @@ const Home = () => {
     <div>
       <Header />
       <SpecialityMenu />
+      {/* <TopDoctor /> */}
     </div>
   )
 }
