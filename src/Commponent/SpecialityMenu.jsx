@@ -31,7 +31,7 @@ const SpecialityMenu = () => {
 
       <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
         {specialities.map((speciality, index) => (
-          <div key={index} className="bg-white shadow-lg rounded-2xl p-4 flex flex-col items-center">
+          <div key={index} className="bg-white border rounded-2xl p-4 flex flex-col items-center">
             <img 
               src={speciality.Image} 
               alt={`Speciality ${speciality.id}`} 
