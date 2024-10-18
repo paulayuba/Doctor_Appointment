@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import item1 from "../assets/item1.png";
+import item2 from "../assets/item2.png"
+import item3 from "../assets/item3.png"
 
 const specialities = [
   {
@@ -9,17 +11,17 @@ const specialities = [
     name: 'Cardiology'
   },
   {
-    Image: item1,
+    Image: item2,
     id: 'neurology',
     name: 'Neurology'
   },
   {
-    Image: item1,
+    Image: item3,
     id: 'orthopedics',
     name: 'Orthopedics'
   },
   {
-    Image: item1,
+    Image: item2,
     id: 'dermatology',
     name: 'Dermatology'
   },

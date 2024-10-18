@@ -67,7 +67,7 @@ const TopDoctor = () => {
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
         {TopDoctors.map((doctor, index) => (
           <div key={doctor.id} className="bg-white border rounded-lg p-4">
-            <img src={doctor.Image} alt={doctor.name} className="w-full h-48 object-cover rounded-lg mb-4" />
+            <img src={doctor.Image} alt={doctor.name} className="w-full h-40 object-cover rounded-lg mb-4" />
             <div className="flex justify-center items-center">
                 <p className="text-sm text-green-600">Available</p>
               </div>
